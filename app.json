@@ -1,0 +1,32 @@
+{
+  "build": {
+    "development": {
+      "android": {
+        "image": "ubuntu-18.04-jdk-11-ndk-r19c"
+      },
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "ANDROID_SDK_ROOT": "C:/Users/user/AppData/Local/Android/Sdk"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "cli": {
+    "version": ">= 0.54.1"
+  },
+  "submit": {
+    "production": {}
+  },
+  "extra": {
+    "eas": {
+      "projectId": "9f79e697-528b-46d2-a24d-5785505bc6c2"
+    }
+  },
+  "android": {
+    "package": "com.kixg.emmaappv3"
+  }
+}
